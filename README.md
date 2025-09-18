@@ -25,6 +25,8 @@ Run the example file to test your environment:
 python example.py
 ```
 
+Or open the `playground.ipynb` Jupyter notebook to explore interactively!
+
 ### Installing Additional Packages
 Add packages to `requirements.txt` and they'll be installed automatically when the codespace starts, or install them manually:
 ```bash
