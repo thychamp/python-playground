@@ -7,10 +7,15 @@ for name in siblings:
 
 print(siblings)
 
-#boolean
-isTired = False
+# boolean
 
-if isTired: 
-    print("skye is tired")
+name = input("name a sibling?\n")
+# gives it a line break if you use \n
+isBest = "skye" == name.lower()
+
+if isBest: 
+    print("is the best sibling")
 else:
-    print("skye is ready for the day")
+    print("is not the best sibling")
+
+
