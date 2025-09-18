@@ -1,0 +1,20 @@
+# Development and formatting tools
+pylint
+flake8
+black
+isort
+autopep8
+
+# Popular data science and general purpose libraries
+numpy
+pandas
+matplotlib
+requests
+jupyter
+
+# Testing framework
+pytest
+
+# Other useful utilities
+rich
+colorama
