@@ -1,21 +1,13 @@
-
-#forloop
-siblings = ["skye", "kyra", "dane"]
-
-for name in siblings:
-    print(name)
-
-print(siblings)
-
-# boolean
-
-name = input("name a sibling?\n")
-# gives it a line break if you use \n
-isBest = "skye" == name.lower()
-
-if isBest: 
-    print("is the best sibling")
+def greet(name):
+    print("Hello " + name)
+if name == "Bob":
+    print("Welcome back, Bob!")
 else:
-    print("is not the best sibling")
+    print("Nice to meet you!")
 
+guests = ["Alice", "Bob", "Charlie"]
+for guest in guests:
+    greet(guest)
 
+if guest == "Charlie":
+    print("Glad you could join us!")
