@@ -1,0 +1,4 @@
+myAge = 19
+myName = "skye"
+
+print(f"hello my name is {myName} and my age is {myAge}")
